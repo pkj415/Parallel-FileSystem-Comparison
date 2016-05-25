@@ -60,7 +60,7 @@ IDENTICAL FILESYSTEMS // If both file systems are completely identical content-w
 DIFFERENT FILESYSTEMS // If there is any difference
 
 
-# NOTE :
+NOTE :
 ------
 1) While running the program, give paths of root directories without an ending '/'. For ii) and iii) Give the number of filesystems (k) too as command line arguments.
 
