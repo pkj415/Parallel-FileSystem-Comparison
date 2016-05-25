@@ -4,15 +4,21 @@ A set of 4 code pieces to compare a number(k) of file systems in parallel using 
 Contents -
 -------------------
 1)	A make file
+
 2) 	4 .c files - 
+
 	i) CompareFS(K)Pthread.c [C code of parallel program for comparing k filesystems using the Pthread library]
+	
 	ii)  CompareFS(K)OpenMP.c [C code of parallel program for comparing k filesystems using the OpenMP library]
+	
 	iii) CompareFS(K=2)Pthread.c [C code of parallel program for comparing 2 filesystems using the Pthread library]
+	
 	iv) CompareFS(K=2)OpenMP.c [C code of parallel program for comparing 2 filesystems using the OpenMP library]
 
 To run the program -
 --------------------
 1) $make on the prompt.
+
 2) Example runs for the three code files - (All input is taken using command line)
 	
 	i) ./ComparePthreadK k <full path of fileSys 1> <full path of fileSys 2> <..> ... <full path of fileSys k>
