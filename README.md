@@ -60,8 +60,7 @@ IDENTICAL FILESYSTEMS // If both file systems are completely identical content-w
 DIFFERENT FILESYSTEMS // If there is any difference
 
 
-
-NOTE : 
+# NOTE :
 ------
 1) While running the program, give paths of root directories without an ending '/'. For ii) and iii) Give the number of filesystems (k) too as command line arguments.
 
@@ -70,7 +69,7 @@ NOTE :
 3) The 2 C codes specifically for 2 file systems was written earlier. The general case of k filesystems was designed later, The general solution for k filesystems can be used for 2 filesystems, by simply assigning k = 2, but there is performance benefit in the 2 programs written specifically for k = 2. This performance benefit is not present in the general solution for k file systems.
 
 ISSUES :
-________
+--------
 
 	1) The program is not scalable and some modifications(replacing the empty while loops with conditional locks) will make it scalable
 	2) There is one bug in the 2 programs for k filesystems. They don't give the exact output when k = 2. This will be corrected in future.
